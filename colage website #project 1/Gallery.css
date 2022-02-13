@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.home a{
+    text-decoration: none;
+}
+.part{
+    background-color: azure;
+    margin-top: -24px;
+    height: 200px;
+    width: 100%;
+}
+.moto{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+.container > div{
+    padding: 70px;
+}
+.box1{
+    background-image: url(./image/images\ \(5\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .box1{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.container .box1:hover {
+    transform: scale(0.9);
+}
+
+.box2{
+    background-image: url(./image/images\ \(3\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .box2{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.container .box2:hover {
+    transform: scale(0.9);
+}
+.box3{
+    background-image: url(./image/download\ \(4\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .box3{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.container .box3:hover {
+    transform: scale(0.9);
+}
+.box4{
+    background-image: url(./image/images\ \(6\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .box4{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.container .box4:hover {
+    transform: scale(0.9);
+}
+.box5{
+    background-image: url(./image/pexels-photo-267885.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+.container .box5{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.container .box5:hover {
+    transform: scale(0.9);
+}
+.box6{
+    background-image: url(./image/images\ \(7\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row: 2/4;
+}
+.container .box6{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.container .box6:hover {
+    transform: scale(0.9);
+}
+.box7{
+    background-image: url(./image/pexels-photo-3978518.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    grid-row: 2/5;
+}
+.container .box7{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.container .box7:hover {
+    transform: scale(0.9);
+}
+.box8{
+     background-image: url(./image/images\ \(10\).jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .box8{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.container .box8:hover {
+    transform: scale(0.9);
+}
+.box10{
+    background-image: url(./image/images\ \(8\).jpg);
+    background-size: cover;
+   background-repeat: no-repeat;
+   grid-column: 2/4;
+}
+.container .box10{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.container .box10:hover {
+    transform: scale(0.9);
+}
+
+
+.section2{
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+}
+.area1{
+    display: flex;
+}
+.div1{
+    background-image: url(./image/download\ \(5\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width:350px;
+}
+.section2 .div1{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.section2 .div1:hover {
+    transform: scale(0.9);
+}
+.div2{
+    background-image: url(./image/download\ \(7\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 350px;
+}
+.section2 .div2{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.section2 .div2:hover {
+    transform: scale(0.9);
+}
+.div3{
+    background-image: url(./image/images\ \(14\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 330px;
+}
+.section2 .div3{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.section2 .div3:hover {
+    transform: scale(0.9);
+}
+.div4{
+    background-image: url(./image/images\ \(11\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 200px;
+}
+.section2 .div4{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.section2 .div4:hover {
+    transform: scale(0.9);
+}
+
+
+.area2{
+    display: flex;
+}
+
+.div5{
+    background-image: url(./image/download\ \(6\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 200px;
+}
+.section2 .div5{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.section2 .div5:hover {
+    transform: scale(0.9);
+}
+
+.div6{
+    background-image: url(./image/images\ \(13\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 200px;
+}
+.section2 .div6{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.section2 .div6:hover {
+    transform: scale(0.9);
+}
+
+.div7{
+    background-image: url(./image/images\ \(12\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 430px;
+}
+.section2 .div7{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.section2 .div7:hover {
+    transform: scale(0.9);
+}
+
+.div8{
+    background-image: url(./image/download\ \(8\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    background-color:burlywood
+}
+.section2 .div8{
+    transform: scale(1);
+    transition: 0.3s ease-in-out
+}
+.section2 .div8:hover {
+    transform: scale(0.9);
+}
+

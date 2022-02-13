@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    margin-top: 50px;
+    margin-left: 300px;
+    height: 700px;
+    width: 700px;
+}
+.logo{
+    margin-left: 230px;
+    position: relative;
+    bottom: 50px;
+    background-image: url(./image/images_logo-removebg-preview\ \(2\).png);
+    height: 200px;
+    width: 200px;
+}
+.forms{
+    box-shadow: 0 0 3px;
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    bottom: 20px;
+}
+.form{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#input{
+    width: 400px;
+    height: 30px;
+}
+label{
+    font-size: 20px;
+}
+#option{
+    height: 30px;
+    width: 230px;
+}
+.submit{
+    letter-spacing: 2px;
+    margin-left: 50px;
+    height: 35px;
+    width: 120px;
+}
+.submit:hover{
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    background-color: lightblue;
+    height: 160px;
+    width: 100%;
+}
+.info{
+    font-size: 25px;
+}
+.contact li{
+    list-style: none;
+    font-size: 20px;
+}
+.f2{
+    margin-left: 150px;
+}
+.social li{
+    list-style: none;
+}
+.social a{
+    font-size:20px ;
+    color: black;
+    text-decoration: none;
+}
+.copy{
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 200px;
+}
+#icon{
+    color: blue;
+}
+#icon2{
+    color: rgba(255, 0, 0, 0.418);
+}

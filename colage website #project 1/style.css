@@ -1,0 +1,394 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgba(0, 0, 255, 0.466);
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.logo{
+    position: relative;
+    left: 0px;
+    height: 188px;
+    width: 200px;
+    z-index: 1;
+}
+.navbar{
+    position: relative;
+    left:200px;
+    bottom: 20px;
+    bottom:px;
+    display: flex;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar ul li{
+    padding: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.intro{
+    margin-top: -50px;
+    background-image: url(./image/pexels-photo-1130683.jpeg);
+    height: 800px;
+    width: 100%;
+}
+
+.intro2{
+    color: white;
+    position: relative;
+    left: 300px;
+    top: 300px;
+    height: 220px;
+    width: 800px;
+    background-color: rgb(26, 68, 207);
+    opacity: 0.5;
+}
+.moto{
+    font-size: 45px;
+}
+.enrol{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+    border: 2px solid white;
+}
+.enrol:hover{
+    background-color: blue;  
+}
+
+
+.description{
+    margin-top: -56px;
+    background-color:white;
+    width: 100%;
+    height: 130px;
+}
+.desc{
+    position: relative;
+    left: 450px;
+    bottom:30px;
+    background-color: white;
+    height: 160px;
+    width: 550px;
+}
+.welcome{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(22, 183, 236);
+}
+.offer{
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.link{
+    text-decoration: none;
+}
+.area{
+    margin-top: -40px;
+   
+    width: 100%;
+    height: 300px;
+}
+.we{
+    color:black;
+    font-size: 40px;
+    text-align: center;
+}
+.area2div{
+    display: flex;
+    justify-content: space-around;
+}
+.unt{
+    border-radius: 10px 10px;
+    background-color:rgba(173, 216, 230, 0.39);
+    width: 400px;
+    height:200px;
+    position: relative;
+    bottom: 20px;
+}
+.unt button{
+    width: 90px;
+    height: 30px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 29px;
+    
+}
+.unt button a{
+    color: black;
+    text-decoration: none;
+}
+.to{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+}
+.course{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+.dip{
+    border-radius: 10px 10px;
+    background-color:rgba(173, 216, 230, 0.39) ;
+    width: 400px;
+    height:200px;
+    position: relative;
+    bottom: 20px;
+}
+.dip button{
+    width: 90px;
+    height: 30px;
+    margin-left: 150px;
+    
+}
+.dip button a{
+    color: black;
+    text-decoration: none;
+}
+.to1{
+    color: black;
+    font-size: 37px;
+    text-align: center;
+    position: relative;
+}
+
+.deg{
+    border-radius: 10px 10px;
+    background-color:rgba(173, 216, 230, 0.39);
+    width: 400px;
+    height:200px;
+    position: relative;
+    bottom: 20px;
+}
+.deg button{
+    width: 90px;
+    height: 30px;
+    margin-left: 150px;  
+}
+.deg button a{
+    color: black;
+    text-decoration: none;
+}
+.to2{
+    color: black ;
+    font-size: 37px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+.images{
+    height: 1050px;
+    width: 100%;
+}
+.container1{
+    display: flex;
+}
+.pic1{
+    background-image: url(./image/2020-10-29_03-40-15-PMRS22356_COVID-19_Classrom_Stock-2020-15-lpr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 50%;
+}
+.meaning{
+    height: 350px;
+    width: 50%;
+}
+.lecture{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+}
+.lm{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.container2{
+    display: flex;
+}
+.meaning2{
+    height: 350px;
+    width: 50%;
+}
+.library{
+    color: rgb(26, 149, 190);
+    font-size:40px ;
+    text-align: center;
+}
+.lim{
+    font-size: 20px;
+    text-align: center;
+}
+.pic2{
+    background-image: url(./image/\)7_WillPryce_CUL_lede.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 50%;
+}
+.container3{
+    display: flex;
+}
+
+.pic3{
+    background-image: url(./image/communiy-service-ideas-1200-2-1200x794.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 50%;
+}
+.meaning3{
+    height: 350px;
+    width: 50%;
+}
+.community{
+    color:black;
+    font-size:40px ;
+    text-align: center;
+}
+.com{
+    font-size: 20px;
+    text-align: center;
+}
+
+.area2{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+}
+.undergraduate{
+    box-shadow: 0 0 5px ;
+    background-color: white;
+    position: relative;
+    top:40px;
+    height:120px;
+    width: 300px;
+}
+
+
+.under{
+    color:rgb(26, 149, 190);
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.numbe{
+    position: relative;
+    bottom: 45px;
+    left: 120px;
+    font-size: 25px;
+}
+.stu{
+    font-size: 30px;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+}
+.graduate{
+    box-shadow:0 0 5px ;
+    background-color:white;
+    position: relative;
+    top: 40px;
+    height:120px;
+    width: 300px;
+}
+.gradu{
+    color:rgb(26, 149, 190);
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.number{
+    position: relative;
+    bottom: 45px;
+    left: 110px;
+    font-size: 25px;
+}
+.profeser{
+    box-shadow: 0 0 5px;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    height:120px;
+    width: 300px;
+}
+.prof{
+    color:rgb(26, 149, 190);
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    font-size: 35px;
+}
+.numbers{
+    position: relative;
+    bottom: 45px;
+    left: 120px;
+    font-size: 30px;
+}
+.footer{
+    display: flex;
+    background-color:lightblue;
+    height: 160px;
+    width: 100%;
+}
+.info{
+    font-size: 25px;
+}
+.contact li{
+    list-style: none;
+    font-size: 20px;
+}
+.f2{
+    margin-left: 150px;
+}
+.social li{
+    list-style: none;
+}
+.social a{
+    font-size:20px ;
+    color: black;
+    text-decoration: none;
+}
+.copy{
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 200px;
+}
+#icon{
+    color: blue;
+}
+#icon2{
+    color: rgba(255, 0, 0, 0.418);
+}
